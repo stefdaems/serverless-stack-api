@@ -4,7 +4,7 @@
   "description": "A Node.js starter for Serverless Framework with ES6 and TypeScript support",
   "main": "handler.js",
   "scripts": {
-    "test": "serverless-bundle test"
+    "test": "jest"
   },
   "author": "",
   "license": "MIT",
@@ -19,6 +19,11 @@
     "serverless-offline": "^5.3.3"
   },
   "dependencies": {
+    "serverless": "^1.82.0",
+    "stripe": "^8.92.0",
     "uuid": "^7.0.3"
+  },
+  "scripts": {
+    "test": "jest"
   }
 }
