@@ -13,7 +13,7 @@ provider:
   name: aws
   runtime: nodejs12.x
   stage: prod
-  region: us-central-1
+  region: eu-central-1
 
   # These environment variables are made available to our functions
   # under process.env.
